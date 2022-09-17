@@ -9,6 +9,51 @@
     <script src="./script.js" defer></script>
 </head>
 <body>
-    
+    <div class="nextroundcontainer">
+        <div class="nextround">
+            <div class="result"></div>
+            <button id="nextroundbtn">OK</button>
+        </div>
+    </div>
+    <div class="modalcontainer">
+        <div class="modal">
+            <div>
+                <label for="p1name">Player 1 Name:</label>
+                <input type="text" name="" id="p1name">
+            </div>
+
+            <div>
+                <label for="p2name">Player 2 Name:</label>
+                <input type="text" id="p2name">
+            </div>
+
+            <button id="register">Done</button>
+        </div>
+    </div>
+    <header>TIC TAC TOE</header>
+    <main>
+        <div class="player p1">
+            <div id="p1namecon"></div>
+            <div>X</div>
+            <div id="p1score"></div>
+        </div>
+        <div class="board">
+            <div class="tile" data-row="0" data-col="0"></div>
+            <div class="tile" data-row="0" data-col="1"></div>
+            <div class="tile" data-row="0" data-col="2"></div>
+            <div class="tile" data-row="1" data-col="0"></div>
+            <div class="tile" data-row="1" data-col="1"></div>
+            <div class="tile" data-row="1" data-col="2"></div>
+            <div class="tile" data-row="2" data-col="0"></div>
+            <div class="tile" data-row="2" data-col="1"></div>
+            <div class="tile" data-row="2" data-col="2"></div>
+        </div>
+        <div class="player p2">
+            <div id="p2namecon"></div>
+            <div>O</div>
+            <div id="p2score"></div>
+        </div>
+    </main>
+    <footer>Made by <a href="https://github.com/rohb22">@rohb22</a></footer>
 </body>
 </html>
